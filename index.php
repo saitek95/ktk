@@ -292,4 +292,126 @@
         </div>
     </div>
 </div>
+<div class="why_us">
+    <div class="container">
+        <h2 class="text-center">Почему выгодно сотрудничать с КТК?</h2>
+        <div class="items">
+            <div class="item">
+                <div class="icons">
+                    <img src="./assets/svg/why_us_1.svg" alt="" class="svg">
+                    <img src="./assets/svg/check_white.svg" class="svg check_white">
+                </div>
+                <p>
+                    <span>Бесплатная доставка по всей России</span><br>по всей России
+                </p>
+            </div>
+            <div class="item">
+                <div class="icons">
+                    <img src="./assets/svg/why_us_2.svg" alt="" class="svg">
+                    <img src="./assets/svg/check_white.svg" class="svg check_white">
+                </div>
+                <p>
+                    <span>Нам доверяют 1000 постоянных </span><br>клиентов свое производство
+                </p>
+            </div>
+            <div class="item">
+                <div class="icons">
+                    <img src="./assets/svg/why_us_3.svg" alt="" class="svg">
+                    <img src="./assets/svg/check_white.svg" class="svg check_white">
+                </div>
+                <p>
+                    <span>40 000 + товаров в наличии</span><br>и под заказ
+                </p>
+            </div>
+            <div class="item">
+                <div class="icons">
+                    <img src="./assets/svg/why_us_4.svg" alt="" class="svg">
+                    <img src="./assets/svg/check_white.svg" class="svg check_white">
+                </div>
+                <p>
+                    <span>15+ лет </span>на рынке
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="warehouse">
+    <div class="container">
+        <div class="col_content">
+            <h2>склад самовывоза</h2>
+            <div class="items_address">
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/svg/location_small.svg" alt="" class="svg">
+                    </div>
+                    <div class="content">
+                        <p class="name">Адрес</p>
+                        <p class="text">
+                            107497, г. Москва, ул. Иркутская,
+                            дом № 17, строение 14, склад 3, ворота 6
+                        </p>
+                        <p class="description">
+                            Щелковская — ближайшая станция метро
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/svg/clock_small.svg" alt="" class="svg">
+                    </div>
+                    <div class="content">
+                        <p class="name">Время работы</p>
+                        <p class="text">
+                            Пн-Пт с 9:00 до 18:00
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/svg/location_small.svg" alt="" class="svg">
+                    </div>
+                    <div class="content">
+                        <p class="name">Адрес</p>
+                        <p class="text">
+                            107497, г. Москва, ул. Иркутская,
+                            дом № 17, строение 14, склад 3, ворота 6
+                        </p>
+                        <p class="description">
+                            Щелковская — ближайшая станция метро
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="btns">
+                <a href="" class="btn_default">
+                    <img src="./assets/svg/location_ya.svg" alt="" class="svg">
+                    Построить маршрут на Яндекс Картах
+                </a>
+                <a href="" class="btn_blue">
+                    <img src="./assets/svg/pdf.svg" alt="" class="svg">
+                    Подробная схема проезда .pdf
+                </a>
+            </div>
+            <div class="items_address">
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/svg/phone_blue.svg" alt="" class="svg">
+                    </div>
+                    <div class="content">
+                        <p class="name">Телефоны и почта</p>
+                        <p class="text">
+                            <a href="">+7 800 775-3842</a> — бесплатно по всей России
+                        </p>
+                        <a href="" class="text">info@pfkr.ru</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col_map">
+            <img src="./assets/img/map.jpg" alt="">
+        </div>
+    </div>
+</div>
 <?php include 'footer.php';?>

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('BebasNeueBold.woff2') format('woff2'), url('BebasNeueBold.woff') format('woff');
+    src: url('../fonts/BebasNeueBold.woff2') format('woff2'), url('../fonts/BebasNeueBold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
@@ -49,4 +49,465 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+    outline: none;
+    color: #2D3739;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 68px;
+    font-weight: 700;
+    font-family: 'Bebas Neue';
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'Bebas Neue';
+    margin-bottom: 30px;
+}
+
+body {
+    background: #FBFBFB;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.btn_blue {
+    background: #2BA6FF;
+    color: #FFF;
+}
+
+.btn_default {
+    padding: 14px;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header .top_block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header .logo span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #2D3739;
+}
+
+.header .top_block .item {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    align-items: center;
+}
+
+.header .item .icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header .top_block .icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.header .top_block .item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2D3739;
+}
+
+.header .top_block .item p span {
+    font-weight: 600;
+}
+
+.header .top_block .item.location .icon {
+    width: fit-content;
+    height: fit-content;
+    background: none;
+}
+
+.header .top_block .item.location .icon svg {
+    width: 11px;
+}
+
+.header .top_block .item:nth-child(3) p,
+.header .top_block .item:nth-child(4) p {
+    font-size: 12px;
+}
+
+.header .top_block .item:nth-child(3) p span,
+.header .top_block .item:nth-child(4) p span {
+    font-size: 14px;
+}
+
+.header .top_block .item.callback p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header .top_block .item.callback p a {
+    font-size: 12px;
+    color: #2BA6FF;
+    text-decoration: underline;
+}
+
+.header .top_block .item.location {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2px;
+    gap: 5px;
+}
+
+.header .top_block .item.location p {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #2D3739;
+}
+
+.header .bottom_block {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .btn_catalog {
+    background: #14B3ED;
+    width: 120px;
+    color: #FFF;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header .bottom_block .search {
+    width: 420px;
+    height: 38px;
+    position: relative;
+}
+
+.header .bottom_block .search input {
+    width: 100%;
+    border: 1px solid #7C909640;
+    border-radius: 4px;
+    height: 100%;
+    padding-left: 34px;
+    padding-right: 100px;
+}
+
+.header .bottom_block .search input {
+    width: 100%;
+    border: 1px solid #7C909640;
+    border-radius: 4px;
+    padding-left: 34px;
+    padding-right: 100px;
+    font-weight: 500;
+}
+
+.header .bottom_block .search .btn_blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 89px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.header .bottom_block .search label {
+    position: absolute;
+    height: 100%;
+    width: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .bottom_block .soc_block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .bottom_block .soc_block a {
+    height: 32px;
+}
+
+.header .bottom_block .item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .bottom_block .item {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header .bottom_block .item .count {
+    position: absolute;
+    font-size: 8px;
+    font-weight: 500;
+    color: #FFF;
+    background: #F54848;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    right: 0px;
+}
+
+.header .bottom_block .auth_block {
+    border: 1px solid #7C9096;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.head_menu {
+    margin-top: 20px;
+    background: #F5F5F5;
+}
+
+.head_menu ul {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head_menu li {
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.head_menu li:first-child a {
+    font-weight: 600;
+    color: #F54848;
+}
+
+.head_menu li:nth-child(4) a {
+    color: #2BA6FF;
+}
+
+.head_menu li:last-child {
+    font-weight: 700;
+}
+
+.main {
+    padding-top: 63px;
+}
+
+.big_banners {
+    margin-top: -13px;
+    margin-bottom: 100px;
+}
+
+.big_banner,
+.small_banner {
+    background-position: right bottom !important;
+    background-repeat: no-repeat !important;
+}
+
+.big_banners .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.big_banner {
+    grid-column: span 2;
+    padding-top: 40px;
+    padding-left: 30px;
+    height: 230px;
+    border-radius: 4px;
+}
+
+.small_banner:nth-child(2) {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.small_banner {
+    padding: 30px;
+    height: 230px;
+    border-radius: 4px;
+}
+
+.big_banners .items p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.small_banner:not(:nth-child(2)) {
+    display: flex;
+    align-items: flex-end;
+}
+
+.catalog_blocks .items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+}
+
+.catalog_blocks .banner_block {
+    background: url("../img/background-left-catalog_banner.png"),
+    url("../img/background-right-catalog_banner.png");
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-size: cover;
+}
+
+.catalog_blocks .banner_block a {
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.catalog_blocks .banner_block p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.catalog_blocks .item {
+    border-radius: 4px;
+    background: #FFF;
+}
+
+.catalog_blocks .item .text {
+    padding: 15px 20px 25px;
+}
+
+.catalog_blocks .item .text>a {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.catalog_blocks .item ul {
+    list-style: none;
+}
+
+.catalog_blocks .item li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.catalog_blocks .item li a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.catalog_blocks .container>.btn_default {
+    width: 240px;
+    margin: auto;
+    display: block;
+    border: 1px solid #2BA6FF;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 40px;
+    color: #2BA6FF;
+    transition: 0.3s;
+}
+
+.catalog_blocks .container>.btn_default:hover {
+    background: #2BA6FF;
+    color: #FFF;
+}
+
+.stocks {
+    margin-top: 105px;
+}
+
+.stocks .tabs ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.stocks .tabs ul li {
+    background: #F5F5F5;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.stocks .tabs ul li.active,
+.stocks .tabs ul li:active,
+.stocks .tabs ul li:hover {
+    background: #2BA6FF;
+    color: #FFF;
+}
+
+.stocks .tabs ul li.active span,
+.stocks .tabs ul li:active span,
+.stocks .tabs ul li:hover span {
+    color: #2BA6FF;
+    background: #FFF;
+}
+
+.stocks .tabs ul li span {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    background: #2BA6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: #FFF;
+    align-items: center;
+    gap: 10px;
+    transition: 0.1s;
 }

@@ -166,7 +166,126 @@
             <div class="tab_content">
                 <div class="items">
                     <div class="swiper-wrapper">
-                        .
+                        <div class="swiper-slide">
+                            <div class="product_slides">
+                                <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                                <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                                <p class="count">Цена за 1 шт</p>
+                                <p class="price">128₽<span>/шт</span></p>
+                                <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                                <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                                <div class="variable_count">
+                                    <span class="minus">-</span>
+                                    <input type="number" value="1">
+                                    <span class="plus">+</span>
+                                </div>
+                                <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                                <p class="info_delivery_prod">
+                                    <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                                    <span>Бесплатная доставка по РФ</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slides">
+                                <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                                <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                                <p class="count">Цена за 1 шт</p>
+                                <p class="price">128₽<span>/шт</span></p>
+                                <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                                <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                                <div class="variable_count">
+                                    <span class="minus">-</span>
+                                    <input type="number" value="1">
+                                    <span class="plus">+</span>
+                                </div>
+                                <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                                <p class="info_delivery_prod">
+                                    <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                                    <span>Бесплатная доставка по РФ</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slides">
+                                <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                                <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                                <p class="count">Цена за 1 шт</p>
+                                <p class="price">128₽<span>/шт</span></p>
+                                <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                                <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                                <div class="variable_count">
+                                    <span class="minus">-</span>
+                                    <input type="number" value="1">
+                                    <span class="plus">+</span>
+                                </div>
+                                <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                                <p class="info_delivery_prod">
+                                    <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                                    <span>Бесплатная доставка по РФ</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slides">
+                                <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                                <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                                <p class="count">Цена за 1 шт</p>
+                                <p class="price">128₽<span>/шт</span></p>
+                                <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                                <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                                <div class="variable_count">
+                                    <span class="minus">-</span>
+                                    <input type="number" value="1">
+                                    <span class="plus">+</span>
+                                </div>
+                                <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                                <p class="info_delivery_prod">
+                                    <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                                    <span>Бесплатная доставка по РФ</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slides">
+                                <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                                <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                                <p class="count">Цена за 1 шт</p>
+                                <p class="price">128₽<span>/шт</span></p>
+                                <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                                <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                                <div class="variable_count">
+                                    <span class="minus">-</span>
+                                    <input type="number" value="1">
+                                    <span class="plus">+</span>
+                                </div>
+                                <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                                <p class="info_delivery_prod">
+                                    <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                                    <span>Бесплатная доставка по РФ</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product_slides">
+                                <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                                <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                                <p class="count">Цена за 1 шт</p>
+                                <p class="price">128₽<span>/шт</span></p>
+                                <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                                <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                                <div class="variable_count">
+                                    <span class="minus">-</span>
+                                    <input type="number" value="1">
+                                    <span class="plus">+</span>
+                                </div>
+                                <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                                <p class="info_delivery_prod">
+                                    <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                                    <span>Бесплатная доставка по РФ</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

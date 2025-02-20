@@ -1,3 +1,12 @@
+var stocksSwiper = new Swiper(".stocks .items", {
+    slidesPerView: 5,
+    spaceBetween: 40,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
 window.addEventListener("DOMContentLoaded", function() {
     [].forEach.call( document.querySelectorAll('.phone'), function(input) {
         var keyCode;

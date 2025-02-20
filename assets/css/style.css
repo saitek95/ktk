@@ -86,10 +86,18 @@ body {
 .btn_blue {
     background: #2BA6FF;
     color: #FFF;
+    transition: 0.1s;
+    border: 1px solid #2BA6FF;
+}
+
+.btn_blue:hover {
+    background: #FFF;
+    color: #2BA6FF;
 }
 
 .btn_default {
     padding: 14px;
+    border-radius: 4px;
 }
 
 .header {
@@ -481,6 +489,9 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: 0.1s;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .stocks .tabs ul li.active,
@@ -510,4 +521,88 @@ body {
     align-items: center;
     gap: 10px;
     transition: 0.1s;
+}
+
+.product_slides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.product_slides .name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.product_slides .count {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.product_slides .price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product_slides .price span {
+    font-size: 14px;
+}
+
+.product_slides .count_total {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.product_slides .check_count {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.product_slides .minus,
+.product_slides .plus {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: #F0F2F2;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_slides input[type="number"] {
+    background: #F0F2F2;
+    border: 0;
+    text-align: center;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.product_slides .variable_count {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.product_slides .btn_default {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.product_slides .info_delivery_prod {
+    background: #2BA6FF0D;
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }

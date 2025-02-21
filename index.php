@@ -403,8 +403,6 @@
                             <a href="">+7 800 775-3842</a> — бесплатно по всей России
                         </p>
                         <a href="" class="text">info@pfkr.ru</a>
-
-                        </p>
                     </div>
                 </div>
             </div>

@@ -225,6 +225,10 @@ body {
     font-weight: 600;
 }
 
+.header .btn_catalog span {
+    color: #FFF;
+}
+
 .header .bottom_block .search {
     width: 420px;
     height: 38px;
@@ -623,7 +627,7 @@ body {
     font-weight: 500;
 }
 
-swiper-horizontal {
+.swiper-horizontal {
     overflow: hidden;
 }
 
@@ -649,6 +653,7 @@ swiper-horizontal {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .why_us .items .icons .check_white {
@@ -874,4 +879,38 @@ ul.menu_footer li a {
 .soc_footer {
     display: flex;
     gap: 15px;
+}
+
+.breadcrumb ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb ul li {
+    color: #2BA6FF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.stock_catalog_item li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F54848;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.stock_catalog_item li span {
+    color: #F54848;
+    font-size: 20px;
+}
+
+.catalog_list {
+    list-style: none;
+    margin-bottom: 25px;
 }

@@ -73,6 +73,12 @@ h2 {
     margin-bottom: 30px;
 }
 
+h3 {
+    font-family: 'Bebas Neue';
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
 body {
     background: #FBFBFB;
 }
@@ -913,4 +919,59 @@ ul.menu_footer li a {
 .catalog_list {
     list-style: none;
     margin-bottom: 25px;
+}
+
+.catalog_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.catalog_list>li>a {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.children {
+    list-style: none;
+}
+
+.children li a {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.catalog_text p {
+    margin-bottom: 20px;
+}
+
+.catalog_text ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.catalog_text ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.catalog_text ul li:before {
+    content: '';
+    background: #2D3739;
+    width: 2px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.catalog_text {
+    width: 80%;
 }

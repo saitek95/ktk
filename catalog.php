@@ -103,6 +103,207 @@
                 </div>
             </div>
         </div>
+        <div class="right_block">
+            <div class="top_banner">
+                <img src="./assets/img/top_banner_catalog.png" alt="">
+                <h3>бесплатная доставка в любую точку рф</h3>
+                <p>Минимальный заказ 25 000 рублей</p>
+            </div>
+            <div class="top_category">
+                <ul>
+                    <li><a href="">Бегунки для молний</a></li>
+                    <li><a href="">Металлофурнитура</a></li>
+                    <li><a href="">Оборудование</a></li>
+                    <li><a href="">Пуллеры для молний</a></li>
+                    <li><a href="">Шнуры для одежды</a></li>
+                    <li><a href="">Ленты</a></li>
+                    <li><a href="">Молнии</a></li>
+                    <li><a href="">Пластиковая фурнитура</a></li>
+                    <li><a href="">Резинки</a></li>
+                    <li><a href="">Элементы декора</a></li>
+                    <li><a href="">Манжеты</a></li>
+                    <li><a href="">Нетканные полотна</a></li>
+                </ul>
+            </div>
+            <div class="sort">
+                <div class="items">
+                    <p class="name">Сортировать</p>
+                    <a class="sort_btn sort_dropdown">
+                        <p>Выгрузка <img src="./assets/svg/arrow_down_small.svg" alt="" class="svg"></p>
+                    </a>
+                    <a class="sort_btn active">
+                        По наличию
+                    </a>
+                    <p class="sort_btn">По доставке</p>
+                </div>
+                <div class="items">
+                    <p class="name">Выводить по</p>
+
+                    <a class="sort_dropdown sort_btn">
+                        <p>20 <img src="./assets/svg/arrow_down_small.svg" alt="" class="svg"></p>
+                    </a>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                    <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                    <p class="count">Цена за 1 шт</p>
+                    <p class="price">128₽<span>/шт</span></p>
+                    <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                    <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                    <div class="variable_count">
+                        <span class="minus">-</span>
+                        <input type="number" value="1">
+                        <span class="plus">+</span>
+                    </div>
+                    <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                    <p class="info_delivery_prod">
+                        <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                        <span>Бесплатная доставка по РФ</span>
+                    </p>
+                </div>
+                <div class="product">
+                    <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                    <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                    <p class="count">Цена за 1 шт</p>
+                    <p class="price">128₽<span>/шт</span></p>
+                    <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                    <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                    <div class="variable_count">
+                        <span class="minus">-</span>
+                        <input type="number" value="1">
+                        <span class="plus">+</span>
+                    </div>
+                    <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                    <p class="info_delivery_prod">
+                        <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                        <span>Бесплатная доставка по РФ</span>
+                    </p>
+                </div>
+                <div class="product">
+                    <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                    <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                    <p class="count">Цена за 1 шт</p>
+                    <p class="price">128₽<span>/шт</span></p>
+                    <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                    <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                    <div class="variable_count">
+                        <span class="minus">-</span>
+                        <input type="number" value="1">
+                        <span class="plus">+</span>
+                    </div>
+                    <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                    <p class="info_delivery_prod">
+                        <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                        <span>Бесплатная доставка по РФ</span>
+                    </p>
+                </div>
+                <div class="product">
+                    <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                    <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                    <p class="count">Цена за 1 шт</p>
+                    <p class="price">128₽<span>/шт</span></p>
+                    <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                    <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                    <div class="variable_count">
+                        <span class="minus">-</span>
+                        <input type="number" value="1">
+                        <span class="plus">+</span>
+                    </div>
+                    <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                    <p class="info_delivery_prod">
+                        <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                        <span>Бесплатная доставка по РФ</span>
+                    </p>
+                </div>
+                <div class="product">
+                    <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                    <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                    <p class="count">Цена за 1 шт</p>
+                    <p class="price">128₽<span>/шт</span></p>
+                    <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                    <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                    <div class="variable_count">
+                        <span class="minus">-</span>
+                        <input type="number" value="1">
+                        <span class="plus">+</span>
+                    </div>
+                    <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                    <p class="info_delivery_prod">
+                        <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                        <span>Бесплатная доставка по РФ</span>
+                    </p>
+                </div>
+                <div class="product">
+                    <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                    <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                    <p class="count">Цена за 1 шт</p>
+                    <p class="price">128₽<span>/шт</span></p>
+                    <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                    <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                    <div class="variable_count">
+                        <span class="minus">-</span>
+                        <input type="number" value="1">
+                        <span class="plus">+</span>
+                    </div>
+                    <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                    <p class="info_delivery_prod">
+                        <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                        <span>Бесплатная доставка по РФ</span>
+                    </p>
+                </div>
+                <div class="product">
+                    <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                    <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                    <p class="count">Цена за 1 шт</p>
+                    <p class="price">128₽<span>/шт</span></p>
+                    <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                    <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                    <div class="variable_count">
+                        <span class="minus">-</span>
+                        <input type="number" value="1">
+                        <span class="plus">+</span>
+                    </div>
+                    <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                    <p class="info_delivery_prod">
+                        <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                        <span>Бесплатная доставка по РФ</span>
+                    </p>
+                </div>
+                <div class="product">
+                    <a href=""><img src="./assets/img/product_1.png" alt=""></a>
+                    <a href="" class="name">Молния Витая Т5 85 см  №179 бордо 1</a>
+                    <p class="count">Цена за 1 шт</p>
+                    <p class="price">128₽<span>/шт</span></p>
+                    <p class="count_total">1130₽ за упаковку (12 шт)</p>
+                    <p class="check_count">Выберите кол-во упак (12 шт)</p>
+                    <div class="variable_count">
+                        <span class="minus">-</span>
+                        <input type="number" value="1">
+                        <span class="plus">+</span>
+                    </div>
+                    <a href="" class="btn_blue btn_default">Купить за 1130₽</a>
+                    <p class="info_delivery_prod">
+                        <img src="./assets/svg/Truck.svg" alt="" class="svg">
+                        <span>Бесплатная доставка по РФ</span>
+                    </p>
+                </div>
+            </div>
+            <div class="catalog_pagination">
+                <a href=""><img src="./assets/svg/ArrowLeft.svg" alt=""></a>
+                <div class="items_pagination">
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a>...</a>
+                    <a href="">39</a>
+                    <a href="">40</a>
+                </div>
+                <a href=""><img src="./assets/svg/ArrowRight.svg" alt=""></a>
+            </div>
+        </div>
     </div>
 </div>
 <?php include 'footer.php';?>

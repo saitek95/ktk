@@ -542,50 +542,63 @@ body {
     transition: 0.1s;
 }
 
-.product_slides {
+.product_slides,
+.product {
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
 }
 
-.product_slides .name {
+.product_slides .name,
+.product .name {
     font-size: 16px;
     font-weight: 600;
     margin-top: 15px;
     text-align: center;
 }
 
-.product_slides .count {
+.product_slides .count,
+.product .count {
     font-size: 10px;
     font-weight: 600;
     margin-top: 12px;
     margin-bottom: 5px;
 }
 
-.product_slides .price {
+.product_slides .price,
+.product .price {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
+    /*position: relative;*/
+    background-image: url('../svg/background_price_in_prod.svg');
+    background-size: contain;
+    background-position: center;
 }
 
-.product_slides .price span {
+.product_slides .price span,
+.product .price span {
     font-size: 14px;
 }
 
-.product_slides .count_total {
+.product_slides .count_total ,
+.product .count_total {
     font-size: 10px;
     margin-bottom: 10px;
 }
 
-.product_slides .check_count {
+.product_slides .check_count,
+.product .check_count {
     font-size: 12px;
     font-weight: 600;
     margin-bottom: 9px;
 }
 
 .product_slides .minus,
-.product_slides .plus {
+.product .minus,
+.product_slides .plus ,
+.product .plus {
     width: 18px;
     height: 18px;
     display: block;
@@ -596,7 +609,8 @@ body {
     justify-content: center;
 }
 
-.product_slides input[type="number"] {
+.product_slides input[type="number"],
+.product input[type="number"] {
     background: #F0F2F2;
     border: 0;
     text-align: center;
@@ -605,7 +619,8 @@ body {
     max-width: 140px;
 }
 
-.product_slides .variable_count {
+.product_slides .variable_count,
+.product .variable_count {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -614,7 +629,8 @@ body {
     justify-content: space-between;
 }
 
-.product_slides .btn_default {
+.product_slides .btn_default,
+.product .btn_default {
     width: 100%;
     text-align: center;
     font-size: 14px;
@@ -622,7 +638,8 @@ body {
     margin-bottom: 5px;
 }
 
-.product_slides .info_delivery_prod {
+.product_slides .info_delivery_prod,
+.product .info_delivery_prod {
     background: #2BA6FF0D;
     padding: 4px 5px;
     border-radius: 4px;
@@ -631,6 +648,19 @@ body {
     gap: 5px;
     font-size: 12px;
     font-weight: 500;
+    width: 100%;
+    justify-content: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-horizontal {
@@ -926,7 +956,8 @@ ul.menu_footer li a {
 }
 
 .catalog_items {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     justify-content: space-between;
     gap: 40px;
     margin-bottom: 100px;
@@ -1206,4 +1237,99 @@ ul.menu_footer li a {
     font-family: "Bebas Neue";
     color: #2BA6FF;
     text-align: center;
+}
+
+.right_block .top_banner {
+    padding: 23px 30px;
+    background: #2BA6FF;
+    position: relative;
+}
+
+.right_block .top_banner h3 {
+    color: #FFF;
+    margin-bottom: 5px;
+}
+
+.right_block .top_banner p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFFBF;
+}
+
+.right_block .top_banner img {
+    position: absolute;
+    bottom: 0;
+    right: 56.19px;
+}
+
+.top_category {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.top_category ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.top_category ul a {
+    font-size: 14px;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 21px;
+}
+
+.sort .items {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sort .name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sort_dropdown p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sort_btn {
+    background: #F5F5F5;
+    border-radius: 60px;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sort_btn.active {
+    background: #2BA6FF;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.catalog_pagination {
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items_pagination a {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.items_pagination {
+    display: flex;
+    gap: 25px;
 }

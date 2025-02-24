@@ -895,9 +895,13 @@ ul.menu_footer li a {
 }
 
 .breadcrumb ul li {
-    color: #2BA6FF;
     font-size: 14px;
     font-weight: 500;
+}
+
+.breadcrumb ul li:nth-last-child(-n+2),
+.breadcrumb ul li:last-child {
+    color: #2BA6FF;
 }
 
 .stock_catalog_item li {
@@ -974,4 +978,232 @@ ul.menu_footer li a {
 
 .catalog_text {
     width: 80%;
+}
+
+.catalog_items .left_block {
+    width: 200px;
+}
+
+.menu_category {
+    margin-bottom: 40px;
+}
+
+.menu_category li {
+    list-style: none;
+    padding: 10px 15px;
+    border-right: 1px solid #E9ECEC;
+    border-left: 1px solid #E9ECEC;
+    border-bottom: 1px solid #E9ECEC;
+}
+
+.menu_category li:first-child {
+    border-top: 1px solid #E9ECEC;
+}
+
+.menu_category li a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu_category li.active {
+    background: #2BA6FF;
+}
+
+.menu_category li.active a {
+    color: #FFF;
+}
+
+.filter .top_block .name {
+    font-size: 24px;
+    font-family: 'Bebas Neue';
+}
+
+.filter .top_block {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter .top_block a {
+    color: #2BA6FF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.filters .name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.inputs_price .input_label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputs_price .input_label label {
+    font-size: 12px;
+    color: #7C9096;
+}
+
+.inputs_price .input_label input {
+    background: #F5F5F5;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.inputs_price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.input_price_draggable {
+    width: 100%;
+    grid-column: 1 / 3;
+}
+
+.slider_range {
+    width: 100%;
+    height: 2px;
+    background: #2BA6FF;
+    margin-top: 5px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.slider_range .range {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2BA6FF;
+    border-radius: 100%;
+}
+
+.input_price_draggable_count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_price_draggable_count span {
+    color: #7C9096;
+    font-size: 12px;
+}
+
+.filter__item_checkbox [type="checkbox"] {
+    display: none;
+}
+
+.filter__item_checkbox label {
+    display: flex;
+    clear: both;
+    margin-bottom: 5px;
+    align-items: center;
+    gap: 5px;
+}
+
+.filter__item_checkbox label:last-child {
+    margin-bottom: 0;
+}
+
+.filter__item_checkbox label:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: block;
+    background: #F0F2F2;
+    border-radius: 2px;
+}
+
+.filter__item_checkbox [type="checkbox"]:checked+label:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    background: #2BA6FF;
+    display: block;
+    position: absolute;
+}
+
+.filter__item_checkbox:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.filters .btn_blue {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.filters .btn_default {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #2BA6FF;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2BA6FF;
+}
+
+.filters .btn_default:hover {
+    background: #2BA6FF;
+    color: #FFF;
+}
+
+.banner_left {
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 61px;
+    border-bottom: 4px;
+}
+
+.banner_left .top_block p:nth-child(1) {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.banner_left .top_block p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.banner_left .top_block p:nth-child(3) {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner_left .bottom_block p:nth-child(1) {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.banner_left .bottom_block p:nth-child(2) {
+    font-size: 32px;
+    font-family: "Bebas Neue";
+    color: #2BA6FF;
+    text-align: center;
 }

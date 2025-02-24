@@ -11,7 +11,7 @@
 </div>
 <div class="main_catalog">
     <div class="container">
-        <div class="catalog_items">
+        <div class="catalog_list_items">
             <div class="col">
                 <ul class="stock_catalog_item">
                     <li>Товары со скидкой <span>%</span></li>
@@ -34,35 +34,6 @@
                             <li><a href="">Лапки для шв. машин</a></li>
                             <li><a href="">Линейки магнит</a></li>
                             <li><a href="">Масло для шв. машин</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="col">
-                <ul class="catalog_list">
-                    <li>
-                        <a href="">Маркировка одежды</a>
-                        <ul class="children">
-                            <li><a href="">Биркодержатели</a></li>
-                            <li><a href="">Микропломбы</a></li>
-                            <li><a href="">Этикет-пистолеты</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="catalog_list">
-                    <li>
-                        <a href="">Металлофурнитура</a>
-                        <ul class="children">
-                            <li><a href="">Брючные крючки</a></li>
-                            <li><a href="">Вешалка-цепочка</a></li>
-                            <li><a href="">Заготовки для пуговиц</a></li>
-                            <li><a href="">Замки портфельные</a></li>
-                            <li><a href="">Застежки для бейсболок</a></li>
-                            <li><a href="">Карабины</a></li>
-                            <li><a href="">Кнопки</a></li>
-                            <li><a href="">Кольца</a></li>
-                            <li><a href="">Комплекты для бейсболок</a></li>
-                            <li><a href="">Люверсы (блочки + кольца)</a></li>
                         </ul>
                     </li>
                 </ul>

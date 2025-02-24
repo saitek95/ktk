@@ -1,11 +1,20 @@
 var stocksSwiper = new Swiper(".stocks .items", {
     slidesPerView: 5,
     spaceBetween: 40,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+    navigation: {
+        nextEl: ".stocks .swiper_next",
+        prevEl: ".stocks .swiper_prev",
     },
 });
+
+// var stocksSwiper = new Swiper(".similar_products .items", {
+//     slidesPerView: 5,
+//     spaceBetween: 40,
+//     pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//     },
+// });
 
 var productImgThumbSwiper = new Swiper(".product_thumb_images", {
     spaceBetween: 20,
@@ -25,6 +34,19 @@ var productImgFullSwiper = new Swiper(".product_full_images", {
 Fancybox.bind('[data-fancybox="gallery"]', {
     //
 });
+
+$(document).on('click', '.tabs_product>ul li', function () {
+    var dataId = $(this).data('id');
+    var _this = $(this);
+    $('.tabs_product_content>div').each(function () {
+        if ($(this).data('tab-content') == dataId) {
+            $(this).addClass('active');
+            _this.addClass('active');
+            $(this).siblings().removeClass('active');
+            _this.siblings().removeClass('active');
+        }
+    })
+})
 
 window.addEventListener("DOMContentLoaded", function() {
     [].forEach.call( document.querySelectorAll('.phone'), function(input) {

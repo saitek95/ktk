@@ -1333,3 +1333,38 @@ ul.menu_footer li a {
     display: flex;
     gap: 25px;
 }
+
+.catalog_detail .left_block {
+    max-width: 560px;
+}
+
+.product_full_images {
+    aspect-ratio: 1 / 1;
+    width: 440px;
+    margin: auto;
+    position: relative;
+}
+
+.product_thumb_images img {
+    width: 96px;
+    height: 96px;
+    cursor: pointer;
+}
+
+.product_thumb_images {
+    max-width: 440px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.plus_img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 9;
+    left: 20px;
+    top: 20px;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 100%;
+}

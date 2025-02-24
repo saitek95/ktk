@@ -6,6 +6,7 @@
     <title>KTK</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.2.4/swiper.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 </head>
 <body>
 <div class="header">

@@ -7,6 +7,25 @@ var stocksSwiper = new Swiper(".stocks .items", {
     },
 });
 
+var productImgThumbSwiper = new Swiper(".product_thumb_images", {
+    spaceBetween: 20,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+});
+
+var productImgFullSwiper = new Swiper(".product_full_images", {
+    spaceBetween: 10,
+    loopedSlides: 5,
+    thumbs: {
+        swiper: productImgThumbSwiper,
+    },
+});
+
+Fancybox.bind('[data-fancybox="gallery"]', {
+    //
+});
+
 window.addEventListener("DOMContentLoaded", function() {
     [].forEach.call( document.querySelectorAll('.phone'), function(input) {
         var keyCode;

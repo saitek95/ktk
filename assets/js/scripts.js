@@ -7,6 +7,33 @@ var stocksSwiper = new Swiper(".stocks .items", {
     },
 });
 
+var fullSwiper = new Swiper(".full_swiper_products .swiper", {
+    spaceBetween: 40,
+    slidesPerView: "auto",
+    navigation: {
+        nextEl: ".full_swiper_products .swiper_next",
+        prevEl: ".full_swiper_products .swiper_prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1.8,
+            spaceBetween: 20,
+        },
+        525: {
+            slidesPerView: 2.8,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 3.8,
+            spaceBetween: 40,
+        },
+        1400: {
+            slidesPerView: 3.6,
+            spaceBetween: 40,
+        },
+    },
+});
+
 var productImgThumbSwiper = new Swiper(".product_thumb_images", {
     spaceBetween: 20,
     slidesPerView: 4,

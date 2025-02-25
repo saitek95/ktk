@@ -7,15 +7,6 @@ var stocksSwiper = new Swiper(".stocks .items", {
     },
 });
 
-// var stocksSwiper = new Swiper(".similar_products .items", {
-//     slidesPerView: 5,
-//     spaceBetween: 40,
-//     pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//     },
-// });
-
 var productImgThumbSwiper = new Swiper(".product_thumb_images", {
     spaceBetween: 20,
     slidesPerView: 4,

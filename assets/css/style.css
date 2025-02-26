@@ -2668,3 +2668,35 @@ ul.menu_footer li a {
     flex-wrap: wrap;
     gap: 34px;
 }
+
+.main_pay {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.main_pay .name {
+    font-size: 28px;
+    font-family: 'Bebas Neue';
+    margin-bottom: 10px;
+}
+
+.main_pay .txt {
+    margin-bottom: 20px;
+    max-width: 460px;
+}
+
+.main_pay .grey_block {
+    background: #F0F2F2;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.main_pay .block_imgs .txt {
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.main_pay .block_imgs {
+    margin-bottom: 30px;
+}

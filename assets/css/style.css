@@ -2484,3 +2484,88 @@ ul.menu_footer li a {
 .swiper_top__btns .swiper-button-disabled {
     opacity: 0.5;
 }
+
+.main_partners>.txt p {
+    margin-bottom: 20px;
+}
+
+.main_partners>.txt {
+    margin-bottom: 60px;
+}
+
+.main_partners .table_prices .grid_items {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.main_partners .table_prices .grid_items .left_blocks {
+    width: 320px;
+}
+
+.main_partners .table_prices .grid_items .left_blocks table {
+    border-collapse: collapse;
+}
+
+.main_partners .table_prices .grid_items .left_blocks thead {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main_partners .table_prices .grid_items .left_blocks thead td {
+    padding-bottom: 10px;
+}
+
+.main_partners .table_prices .grid_items .left_blocks thead td span {
+    color: #2BA6FF;
+}
+
+.main_partners .table_prices .grid_items .left_blocks tbody tr:nth-child(2n) {
+    background: #F0F2F2;
+}
+
+.main_partners .table_prices .grid_items .left_blocks tbody td {
+    padding: 5px 0;
+    width: 50%;
+}
+
+.main_partners .table_prices .grid_items .left_blocks tbody td:nth-child(2) {
+    color: #7C9096;
+}
+
+.main_partners .table_prices .grid_items .right_blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main_partners .table_prices .grid_items .right_blocks .item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.main_partners .table_prices .grid_items .right_blocks .item .grey_block,
+.main_partners .table_prices .grid_items .right_blocks .item .blue_block {
+    width: 260px;
+    height: 110px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: "Bebas Neue";
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #FFF;
+}
+
+.main_partners .table_prices .grid_items .right_blocks .item .grey_block {
+    background: #7C9096;
+}
+
+.main_partners .table_prices .grid_items .right_blocks .item .blue_block {
+    background: #2BA6FF;
+}

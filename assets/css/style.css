@@ -2569,3 +2569,102 @@ ul.menu_footer li a {
 .main_partners .table_prices .grid_items .right_blocks .item .blue_block {
     background: #2BA6FF;
 }
+
+.main_partners .block_txt>.txt {
+    max-width: 760px;
+}
+
+.main_partners .block_with_bg_white {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 20px;
+    border-radius: 4px;
+    background: #FFF;
+    align-items: center;
+    gap: 16px;
+}
+
+.main_partners .block_with_bg_white ul {
+    list-style: none;
+    margin-bottom: 20px;
+    max-width: 760px;
+}
+
+.main_partners .block_with_bg_white .txt {
+    margin-bottom: 18px;
+    max-width: 760px;
+}
+
+.main_partners .block_with_bg_white .txt:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.main_partners .block_with_bg_white li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.main_partners .block_with_bg_white li:last-child {
+    margin-bottom: 0;
+}
+
+.main_delivery .top_block {
+    background: #F0F2F2;
+    border-radius: 4px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 154px;
+    margin-bottom: 60px;
+}
+
+.main_delivery .top_block .item p {
+    margin-bottom: 20px;
+}
+
+.main_delivery .top_block .item a {
+    font-width: 600;
+    color: #2BA6FF;
+    text-decoration: underline;
+}
+
+.main_delivery .grid_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.main_delivery .grid_items .name {
+    font-family: "Bebas Neue";
+    font-size: 28px;
+    margin-bottom: 34px;
+}
+
+.main_delivery .grid_items .txt {
+    margin-bottom: 20px;
+}
+
+.main_delivery .grid_items .blue_txt {
+    font-size: 42px;
+    font-family: 'Bebas Neue';
+    color: #2BA6FF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.main_delivery .grid_items .blue_txt span {
+    font-weight: 600;
+    color: #2BA6FF;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.main_delivery .brands_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+}

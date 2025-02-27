@@ -66,6 +66,11 @@ $(document).on('click', '.tabs_product>ul li', function () {
     })
 })
 
+$(document).on('click', '.main_faq .faq>li', function () {
+    $(this).children('.answer').slideToggle();
+    $(this).toggleClass('active');
+})
+
 window.addEventListener("DOMContentLoaded", function() {
     [].forEach.call( document.querySelectorAll('.phone'), function(input) {
         var keyCode;

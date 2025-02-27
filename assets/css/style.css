@@ -2700,3 +2700,101 @@ ul.menu_footer li a {
 .main_pay .block_imgs {
     margin-bottom: 30px;
 }
+
+.main_suppliers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.main_suppliers p {
+    margin-bottom: 20px;
+}
+
+.main_suppliers .block_grey {
+    background: #F0F2F2;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.main_suppliers .block_grey .title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main_suppliers .block_grey .name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2BA6FF;
+}
+
+.main_suppliers .block_grey .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.main_suppliers .block_grey .item p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main_suppliers .block_grey .item .icon {
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.main_suppliers form .grid_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.main_suppliers .form_block {
+    grid-column: span 3;
+}
+
+.main_suppliers .form_block .item {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 20px;
+}
+
+.main_suppliers form .grid_items label {
+    font-weight: 600;
+}
+
+.main_suppliers .form_block .item input:not(.btn_blue) {
+    background: #F0F2F2;
+    border: 0;
+    padding: 14px 15px;
+    border-radius: 4px;
+}
+
+.main_suppliers .form_block .item textarea {
+    height: 129px;
+    border: 0;
+    background: #F0F2F2;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.main_suppliers .form_block .item .btn_blue {
+    padding: 14px;
+    width: 300px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.main_suppliers .form_block .item p {
+    margin-bottom: 0;
+    font-weight: 600;
+}

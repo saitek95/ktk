@@ -56,14 +56,13 @@
                             <label for="phone">
                                 Контактный номер<span>*</span>
                             </label>
-                            <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+                            <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" class="phone" required>
                         </div>
                         <div class="item">
                             <label for="comment">
                                 Комментарий
                             </label>
-                            <textarea name="comment" id="comment"></textarea>
-                            <input id="comment" placeholder="Напишите что нибудь...">
+                            <textarea name="comment" id="comment" placeholder="Напишите что нибудь..."></textarea>
                         </div>
                         <div class="item">
                             <input type="submit" class="btn_blue">

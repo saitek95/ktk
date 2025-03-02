@@ -7,11 +7,39 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.2.4/swiper.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
 <div class="header">
     <div class="container">
         <div class="top_block">
+            <div class="mob_block">
+                <div class="left_block">
+                    <a href="">
+                        <img src="./assets/svg/favorites_grey.svg" alt="" class="svg">
+                        <span>5</span>
+                    </a>
+                    <a href="">
+                        <img src="./assets/svg/cart_grey.svg" alt="" class="svg">
+                        <span>12</span>
+                    </a>
+                    <a href="">
+                        <img src="./assets/svg/auth_grey.svg" alt="" class="svg">
+                    </a>
+                    <a href="">
+                        <img src="./assets/svg/PhoneCall.svg" alt="" class="svg">
+                    </a>
+                    <a href="">
+                        <img src="./assets/svg/wallet.svg" alt="" class="svg">
+                    </a>
+                </div>
+                <div class="mob_menu">
+                    <img src="./assets/svg/ListPlus.svg" alt="" class="svg">
+                </div>
+            </div>
             <div class="logo">
                 <img src="./assets/img/logo.png" alt="">
                 <span>Костромская<br>
@@ -47,6 +75,25 @@
                     <img src="./assets/svg/location_small.svg" alt="" class="svg">
                 </span>
                 <p>Москва</p>
+            </div>
+            <div class="tablet_block">
+                <div class="item favorites_block">
+                <span class="icon">
+                    <img src="./assets/svg/favorites.svg" alt="" class="svg">
+                    <span class="count">12</span>
+                </span>
+                    Избранное
+                </div>
+                <div class="item cart_block">
+                <span class="icon">
+                    <img src="./assets/svg/favorites.svg" alt="" class="svg">
+                    <span class="count">5</span>
+                </span>
+                    Корзина
+                </div>
+                <div class="mob_menu">
+                    <img src="./assets/svg/ListPlus.svg" alt="" class="svg">
+                </div>
             </div>
         </div>
         <div class="bottom_block">

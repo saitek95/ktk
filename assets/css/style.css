@@ -3028,7 +3028,7 @@ ul.menu_footer li a {
     align-items: center;
     justify-content: space-between;
     grid-column: span 3;
-    background-image: url('./assets/img/backgroudn_map_color.png');
+    background-image: url('/assets/img/backgroudn_map_color.png');
 }
 
 .main_color-map .bottom_item p {
@@ -3451,6 +3451,69 @@ footer .bottom_block p {
         width: 100%;
     }
 
+    .main_partners .table_prices .grid_items {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .main_partners .table_prices .grid_items .left_blocks,
+    .main_partners .table_prices .grid_items .left_blocks table {
+        width: 100%;
+    }
+
+    .main_partners .table_prices .grid_items .right_blocks .item {
+        grid-template-columns: 1fr;
+        gap: 15px
+    }
+
+    .main_partners .table_prices .grid_items .right_blocks .item .grey_block,
+    .main_partners .table_prices .grid_items .right_blocks .item .blue_block {
+        width: 100%;
+    }
+
+    .main_partners .block_with_bg_white img {
+        display: none;
+    }
+
+    .main_partners .block_with_bg_white {
+        grid-template-columns: 1fr;
+    }
+
+    .main_partners .block_with_bg_white .txt {
+        max-width: 100%;
+    }
+
+    .main_partners .block_with_bg_white {
+        padding: 40px;
+    }
+
+    .main_delivery .top_block {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .main_delivery .grid_items {
+        grid-template-columns: 1fr;
+    }
+
+    .main_delivery .grid_items .txt:nth-child(2) {
+        float: left;
+        margin-right: 40px;
+    }
+
+    .main_pay {
+        grid-template-columns: 1fr;
+        gap: 50px
+    }
+
+    .main_suppliers {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .main_suppliers .form_block {
+        grid-column: span 1;
+    }
 }
 
 @media (max-width: 991px) {
@@ -3651,6 +3714,92 @@ footer .bottom_block p {
 
     .menu_category ul {
         flex-direction: column;
+    }
+
+    .order {
+        flex-direction: column;
+    }
+
+    .order .left_block,
+    .order .right_block {
+        width: 100%;
+    }
+
+    .product_in_cart {
+        margin-top: 40px;
+    }
+
+    .product_in_cart table {
+        width: 100%;
+    }
+
+    .order .right_block .sticky_block .middle_txt,
+    .order .right_block .sticky_block .btn_blue {
+        width: 100%;
+    }
+
+    .order .right_block .sticky_block .total_price,
+    .order .right_block .sticky_block .total_vat_info {
+        width: 50%;
+    }
+
+    .order .right_block .sticky_block .middle_txt:nth-child(4) {
+        width: 7%;
+        display: flex
+    ;
+        align-items: flex-end;
+    }
+
+    .order .right_block .sticky_block .bottom_total_price {
+        width: 92%;
+        margin-bottom: 10px;
+    }
+
+    .order .right_block .sticky_block {
+        display: flex
+    ;
+        flex-wrap: wrap;
+    }
+
+    .order .right_block .sticky_block .total_price {
+        align-items: flex-end;
+    }
+
+    .order .right_block .sticky_block .middle_txt:first-child {
+        margin-bottom: 0;
+    }
+
+    .about_main .content_info {
+        grid-template-columns: 1fr;
+        margin-bottom: 80px;
+    }
+
+    .about_main .content_info img {
+        width: 100%;
+    }
+
+    .about_main .our_ind .grid_items {
+        grid-template-columns: repeat(3, minmax(min-content, 20%));
+    }
+
+    .about_main .our_ind .grid_items .item .txt {
+        font-size: 14px;
+    }
+
+    .full_swiper_products .with_flex_between {
+        flex-direction: column;
+    }
+
+    .main_news .grid_items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main_color-map .bottom_item {
+        grid-column: span 2;
+    }
+
+    .main_color-map .grid_items {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -3954,6 +4103,116 @@ footer .bottom_block p {
 
     .catalog__callback_block form {
         width: 100%;
+    }
+
+    .info_buyer .contact_block {
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .info_block_order {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .product_in_cart tr {
+        display: flex;
+        flex-wrap: wrap;
+        border: 0;
+    }
+
+    .product_in_cart .name_info {
+        padding: 0 20px;
+    }
+
+    .product_in_cart td {
+        padding: 0;
+    }
+
+    .order .right_block .sticky_block {
+        flex-direction: column;
+    }
+
+    .order .right_block .sticky_block .total_price,
+    .order .right_block .sticky_block .total_vat_info,
+    .order .right_block .sticky_block .middle_txt:nth-child(4) {
+        width: 100%;
+    }
+
+    .order .right_block .sticky_block .total_price,
+    .order .right_block .sticky_block .total_vat_info {
+        margin-bottom: 20px;
+    }
+
+    .order .right_block .sticky_block .middle_txt:nth-child(4) {
+        margin-bottom: 10px;
+    }
+
+    .about_main .our_ind .grid_items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main_partners>.txt {
+        margin-bottom: 80px;
+    }
+
+    .main_partners .table_prices .grid_items {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-bottom: 64px;
+    }
+
+    .main_partners .block_txt h2 {
+        margin-bottom: 20px;
+    }
+
+    .main_partners .block_with_bg_white {
+        padding: 20px;
+    }
+
+    .main_delivery .grid_items .txt:nth-child(2) {
+        float: none;
+    }
+
+    .main_delivery .grid_items .name {
+        margin-bottom: 10px;
+    }
+
+    .main_suppliers .form_block .item:nth-child(4) {
+        order: 2;
+    }
+
+    .main_suppliers form .grid_items {
+        grid-template-columns: 1fr;
+    }
+
+    .main_news .grid_items {
+        grid-template-columns: 1fr;
+    }
+
+    .main_color-map .grid_items {
+        grid-template-columns: 1fr;
+    }
+
+    .main_color-map .bottom_item {
+        grid-column: span 1;
+    }
+
+    .main_color-map .bottom_item p {
+        font-size: 28px;
+    }
+
+    .main_color-map .bottom_item .btn_blue {
+        height: auto;
+        padding: 14px;
+        max-width: 140px;
+        width: 100%;
+    }
+
+    .main_color-map .grid_items .item .title {
+        padding-bottom: 76px;
     }
 }
 

@@ -34,7 +34,7 @@ var fullSwiper = new Swiper(".full_swiper_products .swiper", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 1.8,
+            slidesPerView: 1.3,
             spaceBetween: 20,
         },
         525: {
@@ -100,6 +100,15 @@ $(document).on('click', '.mob_menu_slide .close', function () {
         $('.mob_menu_slide').removeClass('animate__bounceInLeft');
     }, 10)
     // $('.mob_menu_slide').hide();
+})
+
+$(document).ready(function () {
+    if ($(window).width() <= 640) {
+        $('.main_suppliers form .grid_items .items:nth-child(2) .item:nth-child(1)').insertAfter('.main_suppliers form .grid_items .items:nth-child(1) .item:nth-child(1)');
+        $('.main_suppliers form .grid_items .items:nth-child(2) .item:nth-child(1)').insertAfter('.main_suppliers form .grid_items .items:nth-child(1) .item:nth-child(3)');
+        $('.main_suppliers form .grid_items .items:nth-child(2) .item:nth-child(1)').insertAfter('.main_suppliers form .grid_items .items:nth-child(1) .item:nth-child(5)');
+
+    }
 })
 
 window.addEventListener("DOMContentLoaded", function() {
